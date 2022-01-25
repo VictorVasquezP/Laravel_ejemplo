@@ -23,6 +23,10 @@ Route::get('login',[HomeController::class,'login'])->name('login');
 
 Route::get('register',[HomeController::class,'register'])->name('registro');
 
+Route::get('pdf',[HomeController::class,'vistapdf'])->name('pdf');
+
+Route::post('ajax',[HomeController::class,'ajax'])->name('ajax');
+
 Route::resource('users', UserController::class);
 
 Route::post('auth', [UserController::class,'auth'])->name('auth');
