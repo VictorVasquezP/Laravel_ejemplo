@@ -1,3 +1,3 @@
 require('./bootstrap');
 
-console.log("prueba de hacer un conflicto");
+console.log("segundo conflicto");
